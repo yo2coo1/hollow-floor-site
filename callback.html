@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hollow Floor sign-in</title><link rel="stylesheet" href="style.css"></head><body><main>
+<h1>Almost done</h1><p class="muted">Copy this code back into the Hollow Floor setup. It works once and expires in a few minutes.</p>
+<p><code id="c" style="font-size:1.2rem;word-break:break-all"></code></p>
+<script>const q=new URLSearchParams(location.search);document.getElementById('c').textContent=q.get('code')||('No code: '+(q.get('error_description')||q.get('error')||'unknown'));</script>
+</main></body></html>
